@@ -22,7 +22,7 @@ This project is a simple web application that displays the current weather for C
 
 ## Project Overview
 
-The Simple Weather Reporter Website fetches and displays the current weather conditions for Colombo, Sri Lanka using the [WeatherAPI.com](https://www.weatherapi.com/) service. It demonstrates practical skills in API integration, frontend development, version control, and deployment.
+I built a simple yet insightful weather reporter app named "Breezy" where users can search for any city and view comprehensive weather details such as humidity, wind speed, UV index, pressure, precipitation, visibility, cloud cover, air quality, sunrise, and sunset times. The app also features a dynamic forecast component that provides hourly, daily, weekly, monthly, and yearly insights. Additionally, it includes smart weather tips based on current conditions—for example, “Don't forget your umbrella! It's raining ☔” or “Perfect weather for outdoor activities! Enjoy the sunshine ☀️”. I’ve also implemented a theme toggle allowing users to switch between dark and light themes, with the initial state showing Colombo's weather in dark mode with weekly insights.
 
 ---
 
@@ -64,8 +64,8 @@ The Simple Weather Reporter Website fetches and displays the current weather con
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/simple-weather-reporter.git
-   cd simple-weather-reporter
+   git clone https://github.com/Rizz-33/breezy_rizz-33.git
+   cd breezy_rizz-33
    ```
 
 2. Install dependencies (if using any frontend framework):
@@ -92,9 +92,9 @@ The Simple Weather Reporter Website fetches and displays the current weather con
 
 ## Deployment
 
-- The app is deployed on [Vercel](https://vercel.com/) (or specify your chosen platform).
+- The app is deployed on [Vercel](https://vercel.com/).
 - API keys are managed securely using environment variables provided by the hosting service.
-- The deployed app is accessible via a public URL.
+- The deployed app is accessible via a public URL [Breezy](https://breezyrizz-33.vercel.app).
 
 ---
 
@@ -127,8 +127,10 @@ The Simple Weather Reporter Website fetches and displays the current weather con
 
 ## Repository and Deployment Links
 
-- **GitHub Repository:** [https://github.com/Rizz-33/weather-reporter](https://github.com/Rizz-33/weather-reporter)
-- **Deployed Website:** [https://your-app-name.vercel.app](https://your-app-name.vercel.app)
+- **GitHub Repository:** [https://github.com/Rizz-33/weather-reporter](https://github.com/Rizz-33/breezy_rizz-33)
+- **Deployed Website:** [https://breezy_rizz-33.vercel.app](https://breezyrizz-33.vercel.app)
+- **Deployment Details** [aarruwanthie-gmailcom's projects
+team members](https://breezyrizz-33-git-main-aarruwanthie-gmailcoms-projects.vercel.app) 
 
 ---
 
