@@ -34,9 +34,17 @@ I built a simple yet insightful weather reporter app named "Breezy" where users 
   - Humidity
   - Wind Speed
   - UV Index
+  - Pressure
+  - Precipitation
+  - Visibility
+  - Cloud Cover
+  - Air Quality
+  - Sunrise
+  - Sunset
+- Search for any city and view comprehensive weather details
+- Dynamic forecast component
+- Smart weather tips
 - Clean and simple HTML interface for clear presentation
-- Use of Git for version control with meaningful commits
-- Publicly deployed for easy access
 
 ---
 
@@ -51,7 +59,7 @@ I built a simple yet insightful weather reporter app named "Breezy" where users 
 
 ## Technologies Used
 
-- HTML, CSS, JavaScript (Vanilla or with frontend framework such as React/Vue, if applicable)
+- React.js
 - WeatherAPI.com for weather data
 - Git and GitHub for version control
 - Deployment via [Vercel](https://vercel.com/) (or any other free hosting service)
