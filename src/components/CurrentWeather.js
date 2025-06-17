@@ -303,7 +303,7 @@ const WeatherAdvice = ({
 };
 
 const CurrentWeather = () => {
-  const { weatherData, unit } = useWeather();
+  const { weatherData, unit, toggleUnit } = useWeather();
 
   if (!weatherData) return null;
 
@@ -411,6 +411,45 @@ const CurrentWeather = () => {
       transition={{ duration: 0.8, ease: "easeOut" }}
     >
       <AnimatePresence>{getWeatherAnimation()}</AnimatePresence>
+
+      {/* Unit Toggle */}
+      <div className="absolute top-6 right-6 z-20">
+        <motion.div
+          className="flex items-center gap-2"
+          initial={{ opacity: 0, x: 20 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ delay: 0.5 }}
+        >
+          <span
+            className={`text-sm font-medium ${
+              unit === "celsius"
+                ? "text-blue-600 dark:text-blue-400"
+                : "text-gray-500 dark:text-gray-400"
+            }`}
+          >
+            °C
+          </span>
+          <button
+            onClick={toggleUnit}
+            className="relative inline-flex items-center h-6 rounded-full w-11 bg-gray-200 dark:bg-gray-700 transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+          >
+            <span
+              className={`${
+                unit === "celsius" ? "translate-x-1" : "translate-x-6"
+              } inline-block w-4 h-4 transform transition-transform bg-white rounded-full shadow-md`}
+            />
+          </button>
+          <span
+            className={`text-sm font-medium ${
+              unit === "fahrenheit"
+                ? "text-blue-600 dark:text-blue-400"
+                : "text-gray-500 dark:text-gray-400"
+            }`}
+          >
+            °F
+          </span>
+        </motion.div>
+      </div>
 
       <div className="location relative z-10 mb-10">
         <motion.h2
